@@ -1,0 +1,6 @@
+{
+  "functions": {
+    "predeploy": ["npm run build", "npm run cp-resources"],
+    "source": "deploy"
+  }
+}
